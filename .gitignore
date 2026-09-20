@@ -1,0 +1,33 @@
+# build output
+bin/
+obj/
+__pycache__/
+*.pyc
+# run logs / scratch
+*.log
+*.pkl
+_report_path.txt
+# backups
+*.bak_*
+
+# strategy research, backtest results and book merges - kept local, not published
+research_archive/
+reports/
+book1pct/
+book_june/
+regime_diag.py
+chbrk_node4_screen.py
+merge_book1pct.py
+merge_june.py
+build_final.py
+build_all_algos_pdf.py
+build_grids_pdf.py
+build_monthly_pdf.py
+run_book_to.py
+run_one_book.py
+parse_positions.py
+_junebatch.sh
+gen_group.sh
+
+# old local git history (moved aside)
+.git_private_history/
